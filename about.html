@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>covid-19</title>
+</head>
+<body>
+<section class="sub-header">
+    <nav><a href="https://www.nitj.ac.in/"> <img src="https://upload.wikimedia.org/wikipedia/en/9/96/Logo_of_NIT_Jalandhar.png" alt="loading"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" style="color: black"></i>
+            <!-- <i class="far fa-times" ></i> -->
+            <ul>
+            
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="corona.html">FIGHT CORONA</a></li>
+                <li><a href="who.html">WHO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" style="color:rgb(0, 0, 0);"></i>
+        <!-- <i class="fas fa-bars" onclick="showMenu()" style="color:white;"></i> -->
+    </nav>
+
+    <h1>About This Website</h1>
+    
+    
+</section>
+<!-- about us content -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Information About <span style="color:red;">COVID-19</span></h1>
+            <p> </p>
+            <a href="" class="hero-btn red-btn">Explore More</a>
+        </div>
+        <div class="about-col">
+            <img src="https://thelogicalindian.com/h-upload/2020/05/15/173132-merge-web.jpg" alt="">
+
+        </div>
+    </div>
+</section>
+<!-- end about us content -->
+
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Myself Ujjawal Rachhoya. <br> I am a student at National Institute Of Technology, Jalandhar. <br> Now i am pursuing my b.tech study in Computer Science and Engneering(CSE).</p>
+    <div class="icons">
+        <a href="https://www.instagram.com/noob_tuber100/" class="fa fa-instagram"></a>
+        <!-- <i class="fa fa-youtube"></i> -->
+        <a href="https://www.linkedin.com/in/ujjawal-rachhoya-054297211/" class="fa fa-linkedin"></a>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"> Ujjawal Rachhoya</i></p>
+
+</section>
+<!-- end footer -->
+
+    <!-- JavaScript for toggle menu -->
+<script>
+    var navLinks =  document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
